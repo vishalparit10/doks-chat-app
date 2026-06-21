@@ -10,7 +10,7 @@ r = redis.Redis(host='redis-service', port=6379, decode_responses=True)
 HTML = """
 <!DOCTYPE html>
 <html>
-<head><title>DOKS Chat</title></head>
+<head><title>DOKS Chat App</title></head>
 <body>
     <div id="messages" style="border:1px solid #ccc; height:200px; overflow-y:scroll;"></div>
     <input id="msg" type="text"> <button onclick="send()">Send</button>
